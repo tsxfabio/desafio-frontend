@@ -1,0 +1,23 @@
+@use '/src/styles/global';
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+
+    h2, h3 {
+        font-family: global.$font-family-primary;
+        color: global.$font-color-primary;
+        text-shadow: 2px 3px 3px #000;
+    }
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    h3 {
+        font-size: 4rem;
+    }
+}

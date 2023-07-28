@@ -1,0 +1,36 @@
+@use '/src/styles/global';
+
+.home-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('/src/assets/images/workspace.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 2rem 3rem;
+        color: global.$font-color-primary;
+
+        h1, a {
+            font-family: global.$font-family-primary;
+            font-weight: 400;
+            font-size: 26px;
+            text-decoration: none;
+            color: global.$font-color-primary;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 1.5rem;
+        }
+    }
+    
+}

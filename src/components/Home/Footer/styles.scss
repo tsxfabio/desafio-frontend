@@ -1,0 +1,21 @@
+@use '/src/styles/global';
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        gap: 1.5rem;
+    }
+
+    img {
+        max-height: 50px;
+        fill: global.$font-color-primary;
+    }
+}

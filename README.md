@@ -59,10 +59,10 @@ Será considerado como plus:
 Segue o design:
 
 Landing Page:
-![Alt text](desafio-front.jpg?raw=true "Landing Page")
+![Alt text](./public/desafio-front.jpg?raw=true "Landing Page")
 
 Listagem de repositórios:
-![Alt text](desafio2.jpg?raw=true "Feature")
+![Alt text](./public/desafio2.jpg?raw=true "Feature")
 
 Entrega:
 
